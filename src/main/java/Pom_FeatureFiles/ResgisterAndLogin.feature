@@ -9,4 +9,5 @@ Then User should be registered sucessfully
 Scenario: To verify whether user can login
 Given Access demoqa website and click on login button
 When Enter username and password 
-Then User should be able to access the website   
+Then User should be able to access the website and verify title
+Then perform logout  
