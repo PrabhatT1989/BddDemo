@@ -86,8 +86,6 @@ public class RegisterAndLoginTest  extends  ParentClass {
 		
 		hp = new HomePage();
 		hp.clickLogin();
-		
-	    
 	}
 
 	@When("^Enter username and password$")
@@ -103,10 +101,6 @@ public class RegisterAndLoginTest  extends  ParentClass {
 	  
 		lp = new LoginPage();
 	String title = 	lp.displayTitle();
-	
-	
-	
-		
 	}
 
 	@Then("^perform logout$")
