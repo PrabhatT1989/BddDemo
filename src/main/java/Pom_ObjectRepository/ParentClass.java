@@ -8,9 +8,9 @@ public class ParentClass {
 	
 	public static  WebDriver driver;
 	
-	public String url = "https://opensource-demo.orangehrmlive.com/";
+	public String url = "https://demoqa.com/books";
 	
-public 	String driverpath = "F:\\Selenium Drivers\\Chrome Driver\\Chrome Driver 96\\chromedriver_win32\\chromedriver.exe" ;
+    public 	String driverpath = "F:\\Selenium Drivers\\Chrome Driver\\Chrome Driver 96\\chromedriver_win32\\chromedriver.exe" ;
 	
 
 	
