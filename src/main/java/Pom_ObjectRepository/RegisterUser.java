@@ -34,7 +34,7 @@ public class RegisterUser  extends ParentClass {
 	WebElement reg_register;
 	
 	
-	public void register()
+	public void register_EnterDetails()
 	{
 		reg_firstname.sendKeys("Prabhat");
 		reg_lastname.sendKeys("Tavag");
@@ -44,13 +44,17 @@ public class RegisterUser  extends ParentClass {
 		
 		reg_notarobot.click();
 		
-		reg_register.click();
 		
 	}
 	
+	public void clickRegisterButton()
+	{
+		reg_register.click();
+		
+	}
 
 	
-	RegisterUser () {
+	public RegisterUser () {
 		
 		PageFactory.initElements(driver, RegisterUser.this);
 		

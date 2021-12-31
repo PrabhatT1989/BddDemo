@@ -11,7 +11,7 @@ public class HomePage extends ParentClass {
 	
 	
 
-	HomePage() 
+	public HomePage() 
 	{
 		PageFactory.initElements(driver, HomePage.class);
 	}

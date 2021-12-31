@@ -23,7 +23,7 @@ public class LoginPage extends ParentClass{
 	WebElement loginbutton ;
 
 
-    LoginPage()
+   public  LoginPage()
     {
 	   PageFactory.initElements(driver, this);
     }
@@ -31,11 +31,16 @@ public class LoginPage extends ParentClass{
 	public void userLogin()
 	{
 		username.sendKeys("Prabhat_Tavag@yahoo.com");
-		password.sendKeys("Vashi@123");
+		password.sendKeys("Hero@123");
 		loginbutton.click();
 		
 	}
 	
+	
+	public String displayTitle() {
+		
+		return driver.getTitle();
+	}
 	
 	
 	
