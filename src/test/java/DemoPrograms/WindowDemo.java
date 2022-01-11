@@ -18,6 +18,8 @@ public class WindowDemo {
 		driver = new ChromeDriver();
 		driver.get(url);
 		System.out.println("hello");
+		System.out.println("hello world");
+		System.out.println("basic demo");
 	}
 
 }
